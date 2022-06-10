@@ -70,7 +70,7 @@ cards.forEach((card)=> {card.addEventListener('click',flip)});
     function shuffer(){
         cards.forEach((card) =>{
             let ramdomPosition;
-            console.log(ramdomPosition);
+            ramdomPosition = Math.floor((Math.random()*1000)%12);
             card.style.order = ramdomPosition;
         })
     } 
