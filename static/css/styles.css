@@ -61,3 +61,28 @@ body{
 .card.flip {
     transform: rotateY(180deg);
 }
+
+@media (max-width: 880px) {
+    
+    body {
+        margin: 0;
+    }
+    .game-body{
+        width: 340px;
+    }
+
+    .card{
+        width: 150px;
+        height: 150px;
+        padding: 5px;
+
+    }
+
+    .card img{
+        width: 140px;
+        height: 140px;
+        padding: 5px;
+        position: center;
+    }
+
+}
