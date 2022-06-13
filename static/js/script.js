@@ -46,9 +46,8 @@ function unFliped(){
     setTimeout(()=>{
         fristCard.classList.remove('flip');
         secondCard.classList.remove('flip');
-        console.log("entrou aqui");
         resetBoard();
-    },1500);
+    },1000);
 
 
 }
